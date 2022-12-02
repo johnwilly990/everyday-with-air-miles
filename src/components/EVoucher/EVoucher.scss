@@ -1,0 +1,64 @@
+.main-evoucher {
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__container-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__title {
+    color: rgba(19, 85, 130, 1);
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    padding: 1rem 0 0.5rem 1rem;
+    margin: 0;
+  }
+
+  &__text {
+    padding: 1rem 1.15rem 0.5rem 1rem;
+    margin: 0;
+    font-size: 0.625rem;
+    line-height: 0.68rem;
+    color: rgba(19, 85, 130, 1);
+  }
+
+  &__container-logos {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0.625rem;
+  }
+
+  &__container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 245, 248, 1);
+    border-radius: 0.75rem;
+    width: 4.4375rem;
+    height: 4.4375rem;
+  }
+
+  &__spotify {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+
+  &__shell {
+    width: 3.4375rem;
+    height: 3.1875rem;
+  }
+
+  &__uber-eats {
+    width: 3.9375rem;
+    height: 3.9375rem;
+  }
+
+  &__doordash {
+    width: 3.625rem;
+    height: 1.75rem;
+  }
+}
