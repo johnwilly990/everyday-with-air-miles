@@ -6,6 +6,7 @@ import "./DashboardPage.scss";
 const DashboardPage = () => {
   return (
     <main className="main">
+      <h2 className="main__greeting">Good morning, Johnny</h2>
       <RewardTracker />
       <div className="main__container-divider"></div>
       <Voucher />

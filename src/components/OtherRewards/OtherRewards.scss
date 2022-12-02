@@ -75,4 +75,14 @@
     font-size: 1.5rem;
     margin-left: 0.0625rem;
   }
+
+  &__reward-text {
+    &--unselected {
+      color: rgba(138, 138, 138, 1);
+    }
+
+    &--highlighted {
+      font-weight: 600;
+    }
+  }
 }
