@@ -1,0 +1,80 @@
+// display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: rgba(217, 217, 217, 1);
+
+//     border-radius: 0.75rem;
+//     width: 2.75rem;
+//     height: 2.75rem;
+.main {
+  &__container-chosen {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__chosen-title {
+    color: rgba(19, 85, 130, 1);
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    padding: 1rem 0 0.5rem 1rem;
+    margin: 0;
+  }
+
+  &__container-selected {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0;
+  }
+
+  &__container-coffees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+    border-radius: 0.75rem;
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+
+  &__reward-text {
+    margin: 0;
+    font-size: 0.75rem;
+  }
+
+  &__container-logos {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0.625rem 1rem 0.625rem;
+  }
+
+  &__container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 245, 248, 1);
+    border-radius: 0.75rem;
+    width: 4.4375rem;
+    height: 4.4375rem;
+  }
+
+  &__starbucks {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+
+  &__airplane {
+    width: 3.5rem;
+    height: 3.9375rem;
+  }
+
+  &__second-cup {
+    width: 3.9375rem;
+    height: 1.6875rem;
+  }
+
+  &__darkhorse {
+    width: 3.9375rem;
+    height: 1.6875rem;
+  }
+}

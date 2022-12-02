@@ -1,0 +1,30 @@
+.main {
+  &__container-voucher {
+    display: flex;
+    flex-direction: column;
+  }
+
+  // Image
+  &__container-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: strech;
+    height: 8.75rem;
+
+    &--voucher {
+      background-image: url("../../assets/images/voucher.png");
+    }
+  }
+
+  // Text
+  &__voucher-text {
+    font-size: 0.875rem;
+    line-height: 0.9375rem;
+    margin: 0.375rem 1.15rem;
+
+    &--highlight {
+      color: rgba(19, 85, 130, 1);
+      margin: 0 1.15rem 0.375rem 1.15rem;
+    }
+  }
+}
